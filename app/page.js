@@ -223,7 +223,7 @@ export default function Home() {
               </p>
             </Card>
 
-            <Card className="group relative overflow-hidden border-2 p-8 transition-all hover:border-primary/50 hover:shadow-xl">
+            {/* <Card className="group relative overflow-hidden border-2 p-8 transition-all hover:border-primary/50 hover:shadow-xl">
               <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                 <TrendingUp className="h-7 w-7" />
               </div>
@@ -232,7 +232,7 @@ export default function Home() {
                 Flexible staffing for project-based needs and seasonal demands. Access top talent exactly when you need
                 them.
               </p>
-            </Card>
+            </Card> */}
 
             <Card className="group relative overflow-hidden border-2 p-8 transition-all hover:border-primary/50 hover:shadow-xl">
               <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
