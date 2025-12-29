@@ -351,9 +351,9 @@ export default function Home() {
                     Discuss Your Needs
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="bg-transparent">
+                {/* <Button asChild variant="outline" size="lg" className="bg-transparent">
                   <Link href="/industries">View All Industries</Link>
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>
@@ -419,9 +419,9 @@ export default function Home() {
                 <Button asChild variant="outline" size="lg" className="min-w-[180px] bg-transparent">
                   <Link href="/about">Learn More</Link>
                 </Button>
-                   <Button asChild variant="outline" size="lg" className="min-w-[180px] bg-transparent">
+                   {/* <Button asChild variant="outline" size="lg" className="min-w-[180px] bg-transparent">
                   <Link href="/services">Services</Link>
-                </Button>
+                </Button> */}
               </div>
             </div>
 
