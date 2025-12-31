@@ -23,27 +23,29 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Story Section */}
+      {/* Who We Are Section */}
       <section className="py-16 md:py-24">
         <div className="container px-6">
           <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-2 lg:gap-16">
             <div>
               <h2 className="mb-6 text-3xl font-bold tracking-tight md:text-4xl">
-                Our <span className="text-primary">Story</span>
+                Who <span className="text-primary">We Are</span>
               </h2>
               <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
                 <p>
-                  Founded with a vision to transform the recruitment landscape, Shivtrivana emerged from a simple
-                  belief: exceptional talent and visionary organizations deserve to find each other without barriers.
+                  Shivtrivana Pvt Ltd is a specialized direct hiring and permanent recruitment firm committed to
+                  building teams that drive long-term business success. We partner with organizations to identify,
+                  evaluate, and onboard talent aligned with their strategic objectives, organizational culture, and
+                  future vision.
+                </p>
+                <p className="font-semibold text-foreground">
+                  Our focus is clear and uncompromising: the right fit, the right intent, and the right outcome.
                 </p>
                 <p>
-                  What started as a small team of passionate recruiters has grown into a trusted partner for over 500
-                  leading organizations across India. Our journey has been driven by an unwavering commitment to
-                  quality, integrity, and human connection.
-                </p>
-                <p>
-                  Today, we leverage cutting-edge technology, deep industry expertise, and a vast network to deliver
-                  recruitment solutions that don't just fill positions—they build legacies.
+                  Leveraging cutting-edge technology, deep industry expertise, and an extensive talent network, we
+                  deliver recruitment solutions that go beyond filling positions—they create lasting impact. What began
+                  as a focused team of passionate recruitment professionals has evolved into a trusted hiring partner
+                  for leading organizations across India.
                 </p>
               </div>
             </div>
@@ -57,31 +59,89 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Hiring Philosophy Section */}
+      <section className="py-16 md:py-24">
+        <div className="container px-6">
+          <div className="mx-auto max-w-6xl">
+            <div className="mb-12 text-center">
+              <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">
+                Our Hiring Philosophy – <span className="text-primary">Shiv | Tri | Vana</span>
+              </h2>
+            </div>
+
+            <div className="grid gap-8 md:grid-cols-3">
+              <Card className="border-2 p-6 md:p-8">
+                <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                  <Shield className="h-7 w-7" />
+                </div>
+                <h3 className="mb-3 text-xl font-bold">
+                  Shiv – <span className="text-primary">Purity of Purpose</span>
+                </h3>
+                <p className="leading-relaxed text-muted-foreground">
+                  We follow ethical recruitment practices with transparency, integrity, and accountability.
+                </p>
+              </Card>
+
+              <Card className="border-2 p-6 md:p-8">
+                <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                  <Target className="h-7 w-7" />
+                </div>
+                <h3 className="mb-3 text-xl font-bold">
+                  Tri – <span className="text-primary">Three Dimensions of Talent</span>
+                </h3>
+                <ul className="space-y-2 leading-relaxed text-muted-foreground">
+                  <li>
+                    <strong className="text-foreground">Attitude</strong> – cultural and behavioural alignment
+                  </li>
+                  <li>
+                    <strong className="text-foreground">Aptitude</strong> – skills, experience, and capability
+                  </li>
+                  <li>
+                    <strong className="text-foreground">Agility</strong> – adaptability to evolving business needs
+                  </li>
+                </ul>
+              </Card>
+
+              <Card className="border-2 p-6 md:p-8">
+                <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                  <Rocket className="h-7 w-7" />
+                </div>
+                <h3 className="mb-3 text-xl font-bold">
+                  Vana – <span className="text-primary">Talent Ecosystem</span>
+                </h3>
+                <p className="leading-relaxed text-muted-foreground">
+                  We believe successful hiring builds a sustainable ecosystem where both organizations and professionals
+                  grow together.
+                </p>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission & Vision */}
       <section className="bg-secondary/30 py-16 md:py-24">
         <div className="container px-6">
           <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-2">
             <Card className="border-2 p-8 md:p-10">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
-                <Target className="h-8 w-8" />
+                <Eye className="h-8 w-8" />
               </div>
-              <h3 className="mb-4 text-2xl font-bold md:text-3xl">Our Mission</h3>
+              <h3 className="mb-4 text-2xl font-bold md:text-3xl">Our Vision</h3>
               <p className="text-pretty leading-relaxed text-muted-foreground">
-                To empower organizations with exceptional talent and professionals with transformative career
-                opportunities through innovative, ethical, and personalized recruitment solutions. We strive to create
-                lasting partnerships built on trust, transparency, and measurable success.
+                To become a trusted direct hiring partner known for ethical practices, quality talent, and long-term
+                value creation.
               </p>
             </Card>
 
             <Card className="border-2 p-8 md:p-10">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
-                <Eye className="h-8 w-8" />
+                <Target className="h-8 w-8" />
               </div>
-              <h3 className="mb-4 text-2xl font-bold md:text-3xl">Our Vision</h3>
+              <h3 className="mb-4 text-2xl font-bold md:text-3xl">Our Mission</h3>
               <p className="text-pretty leading-relaxed text-muted-foreground">
-                To be India's most trusted and innovative talent partner, recognized for setting new standards in
-                recruitment excellence. We envision a future where every placement we make contributes to building
-                stronger organizations and more fulfilling careers.
+                To deliver effective and transparent permanent hiring solutions by aligning organizational needs with
+                the right talent.
               </p>
             </Card>
           </div>
