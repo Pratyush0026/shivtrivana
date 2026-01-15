@@ -98,7 +98,7 @@ export default function ContactPage() {
                   </p>
                 </Card>
 
-                <Card className="border-2 p-6">
+                {/* <Card className="border-2 p-6">
                   <div className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
                     <Phone className="h-6 w-6" />
                   </div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                     +91 9953628758
                     <br />
                   </p>
-                </Card>
+                </Card> */}
 
                 <Card className="border-2 p-6">
                   <div className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">

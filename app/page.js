@@ -2,19 +2,19 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { 
-  ArrowRight, 
-  Briefcase, 
-  Users, 
-  TrendingUp, 
-  Award, 
-  CheckCircle2, 
+import {
+  ArrowRight,
+  Briefcase,
+  Users,
+  TrendingUp,
+  Award,
+  CheckCircle2,
   Building2,
-  Laptop, 
-  Heart, 
-  ShoppingCart, 
-  Factory, 
-  Pill, 
+  Laptop,
+  Heart,
+  ShoppingCart,
+  Factory,
+  Pill,
   HardHat,
   Wrench,
   Zap,
@@ -65,22 +65,22 @@ export default function Home() {
       iconColor: "text-teal-500",
       positions: ["R&D", "Medical Reps", "Regulatory"]
     },
-    {
-      icon: HardHat,
-      title: "Construction",
-      description: "Site engineers, project managers, architects, and safety officers",
-      color: "from-yellow-500/20 to-orange-500/20",
-      iconColor: "text-yellow-600",
-      positions: ["Civil Engineers", "Project Heads", "Safety"]
-    },
-    {
-      icon: Wrench,
-      title: "HEMM (Heavy Equipment)",
-      description: "Equipment operators, maintenance engineers, fleet managers",
-      color: "from-slate-500/20 to-zinc-500/20",
-      iconColor: "text-slate-600",
-      positions: ["Operators", "Technicians", "Fleet Managers"]
-    },
+    // {
+    //   icon: HardHat,
+    //   title: "Construction",
+    //   description: "Site engineers, project managers, architects, and safety officers",
+    //   color: "from-yellow-500/20 to-orange-500/20",
+    //   iconColor: "text-yellow-600",
+    //   positions: ["Civil Engineers", "Project Heads", "Safety"]
+    // },
+    // {
+    //   icon: Wrench,
+    //   title: "HEMM (Heavy Equipment)",
+    //   description: "Equipment operators, maintenance engineers, fleet managers",
+    //   color: "from-slate-500/20 to-zinc-500/20",
+    //   iconColor: "text-slate-600",
+    //   positions: ["Operators", "Technicians", "Fleet Managers"]
+    // },
     {
       icon: TrendingUp,
       title: "FMCG & FMCD",
@@ -133,13 +133,13 @@ export default function Home() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-medium text-primary">
               <Award className="h-4 w-4" />
-              <span>Trusted by 500+ Leading Companies</span>
+              <span>Trusted by 20+ Leading Companies and growing</span>
             </div>
 
             <h1 className="mb-6 text-5xl font-bold leading-tight tracking-tight text-foreground md:text-7xl lg:text-8xl">
-              <span className="text-balance">Transform Your</span>
+              <span className="text-balance inline-block animate-fade-in ">Transform Your</span>
               <br />
-              <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent inline-block leading-[1.3] animate-typing overflow-hidden whitespace-nowrap">
                 Talent Journey
               </span>
             </h1>
@@ -278,11 +278,11 @@ export default function Home() {
               <Target className="h-4 w-4" />
               <span>Specialized Direct Hiring</span>
             </div>
-            
+
             <h2 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
               Direct Hiring <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">Industries</span>
             </h2>
-            
+
             <p className="text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
               We specialize in direct placement across key industries, connecting top-tier talent with leading organizations through our expert recruitment process
             </p>
@@ -293,13 +293,13 @@ export default function Home() {
             {directHiringIndustries.map((industry, index) => {
               const Icon = industry.icon
               return (
-                <Card 
+                <Card
                   key={index}
                   className="group relative overflow-hidden border-2 p-6 transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:-translate-y-1"
                 >
                   {/* Background Gradient */}
                   <div className={`absolute inset-0 bg-gradient-to-br ${industry.color} opacity-0 transition-opacity duration-300 group-hover:opacity-100`} />
-                  
+
                   {/* Content */}
                   <div className="relative z-10">
                     {/* Icon */}
@@ -320,9 +320,9 @@ export default function Home() {
                     {/* Position Badges */}
                     <div className="flex flex-wrap gap-2">
                       {industry.positions.map((position, idx) => (
-                        <Badge 
+                        <Badge
                           key={idx}
-                          variant="secondary" 
+                          variant="secondary"
                           className="text-xs font-medium transition-colors group-hover:bg-primary/20 group-hover:text-primary"
                         >
                           {position}
@@ -386,8 +386,8 @@ export default function Home() {
               "Education",
               "Real Estate",
               "Hospitality",
-              "HEMM",
-              "Construction",
+              // "HEMM",
+              // "Construction",
             ].map((industry) => (
               <div
                 key={industry}
@@ -419,7 +419,7 @@ export default function Home() {
                 <Button asChild variant="outline" size="lg" className="min-w-[180px] bg-transparent">
                   <Link href="/about">Learn More</Link>
                 </Button>
-                   {/* <Button asChild variant="outline" size="lg" className="min-w-[180px] bg-transparent">
+                {/* <Button asChild variant="outline" size="lg" className="min-w-[180px] bg-transparent">
                   <Link href="/services">Services</Link>
                 </Button> */}
               </div>
