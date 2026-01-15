@@ -377,7 +377,7 @@ export default function ServicesPage() {
         <div className="container px-6">
           <div className="mx-auto max-w-4xl text-center mb-16">
             <h2 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">
-              Why Choose <span className="text-primary">Shivtrivana</span>
+              What Makes <span className="text-primary">Shivtrivana</span> Different
             </h2>
             <p className="text-lg text-muted-foreground">
               What sets us apart in the recruitment industry
@@ -444,6 +444,46 @@ export default function ServicesPage() {
                 Building lasting relationships, not just filling positions—your success is ours
               </p>
             </Card>
+          </div>
+        </div>
+      </section>
+
+         {/* Industries Section */}
+      <section className="bg-secondary/30 py-24">
+        <div className="container px-6">
+          <div className="mx-auto mb-16 max-w-3xl text-center">
+            <h2 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">
+              Industries We <span className="text-primary">Serve</span>
+            </h2>
+            <p className="text-pretty text-lg leading-relaxed text-muted-foreground">
+              Deep expertise across diverse sectors
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+            {[
+              "Technology & IT",
+              "Healthcare",
+              "Finance & Banking",
+              "Manufacturing",
+              "Retail & E-commerce",
+              "Pharmaceuticals",
+              "Consulting",
+              "Telecommunications",
+              "Energy & Utilities",
+              "Education",
+              "Real Estate",
+              "Hospitality",
+              // "HEMM",
+              // "Construction",
+            ].map((industry) => (
+              <div
+                key={industry}
+                className="rounded-lg border border-border bg-background p-4 text-center transition-all hover:border-primary/50 hover:shadow-md"
+              >
+                <span className="text-sm font-medium md:text-base">{industry}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>

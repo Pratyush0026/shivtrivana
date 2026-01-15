@@ -24,15 +24,15 @@ export function Navigation() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/contact", label: "Contact" },
     { href: "/services", label: "Services" },
+    { href: "/contact", label: "Contact" },
+
   ]
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled ? "border-b border-border bg-background/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
-      }`}
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "border-b border-border bg-background/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
+        }`}
     >
       <nav className="container mx-auto px-6">
         <div className="flex h-20 items-center justify-between">
@@ -54,9 +54,8 @@ export function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  pathname === link.href ? "text-primary" : "text-foreground/80"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-primary ${pathname === link.href ? "text-primary" : "text-foreground/80"
+                  }`}
               >
                 {link.label}
               </Link>
@@ -81,9 +80,8 @@ export function Navigation() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`text-sm font-medium transition-colors hover:text-primary ${
-                    pathname === link.href ? "text-primary" : "text-foreground/80"
-                  }`}
+                  className={`text-sm font-medium transition-colors hover:text-primary ${pathname === link.href ? "text-primary" : "text-foreground/80"
+                    }`}
                 >
                   {link.label}
                 </Link>

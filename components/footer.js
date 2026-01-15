@@ -76,14 +76,15 @@ export function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link href="/contact" className="text-muted-foreground transition-colors hover:text-primary">
-                  Contact
-                </Link>
-              </li>
+         
                 <li>
                 <Link href="/services" className="text-muted-foreground transition-colors hover:text-primary">
                   services
+                </Link>
+              </li>
+                   <li>
+                <Link href="/contact" className="text-muted-foreground transition-colors hover:text-primary">
+                  Contact
                 </Link>
               </li>
             </ul>

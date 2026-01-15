@@ -189,7 +189,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 md:py-32">
+      {/* <section className="py-24 md:py-32">
         <div className="container px-6">
           <div className="mx-auto mb-16 max-w-3xl text-center">
             <h2 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">
@@ -223,16 +223,7 @@ export default function Home() {
               </p>
             </Card>
 
-            {/* <Card className="group relative overflow-hidden border-2 p-8 transition-all hover:border-primary/50 hover:shadow-xl">
-              <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-                <TrendingUp className="h-7 w-7" />
-              </div>
-              <h3 className="mb-3 text-2xl font-semibold">FMCG, FMCD Hiring</h3>
-              <p className="leading-relaxed text-muted-foreground">
-                Flexible staffing for project-based needs and seasonal demands. Access top talent exactly when you need
-                them.
-              </p>
-            </Card> */}
+         
 
             <Card className="group relative overflow-hidden border-2 p-8 transition-all hover:border-primary/50 hover:shadow-xl">
               <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
@@ -267,7 +258,7 @@ export default function Home() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Direct Hiring Industries Section */}
       <section className="py-24 md:py-32 bg-gradient-to-b from-background to-secondary/30">
@@ -360,45 +351,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Industries Section */}
-      <section className="bg-secondary/30 py-24">
-        <div className="container px-6">
-          <div className="mx-auto mb-16 max-w-3xl text-center">
-            <h2 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">
-              Industries We <span className="text-primary">Serve</span>
-            </h2>
-            <p className="text-pretty text-lg leading-relaxed text-muted-foreground">
-              Deep expertise across diverse sectors
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-            {[
-              "Technology & IT",
-              "Healthcare",
-              "Finance & Banking",
-              "Manufacturing",
-              "Retail & E-commerce",
-              "Pharmaceuticals",
-              "Consulting",
-              "Telecommunications",
-              "Energy & Utilities",
-              "Education",
-              "Real Estate",
-              "Hospitality",
-              // "HEMM",
-              // "Construction",
-            ].map((industry) => (
-              <div
-                key={industry}
-                className="rounded-lg border border-border bg-background p-4 text-center transition-all hover:border-primary/50 hover:shadow-md"
-              >
-                <span className="text-sm font-medium md:text-base">{industry}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+   
 
       {/* CTA Section */}
       <section className="py-24 md:py-32">
