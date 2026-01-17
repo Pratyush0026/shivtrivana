@@ -181,7 +181,7 @@ export default function Home() {
               <div className="text-sm text-muted-foreground md:text-base">Client Satisfaction</div>
             </div>
             <div className="text-center">
-              <div className="mb-2 text-4xl font-bold text-primary md:text-5xl">20</div>
+              <div className="mb-2 text-4xl font-bold text-primary md:text-5xl">10</div>
               <div className="text-sm text-muted-foreground md:text-base">Industries Served</div>
             </div>
           </div>
