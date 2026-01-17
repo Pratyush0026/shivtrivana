@@ -391,7 +391,7 @@ export default function ServicesPage() {
               </div>
               <h3 className="mb-3 text-xl font-semibold">Industry Expertise</h3>
               <p className="text-muted-foreground">
-                Deep knowledge across 20+ industries with specialized recruiters for each sector
+                Deep knowledge across 10+ industries with specialized recruiters for each sector
               </p>
             </Card>
 
