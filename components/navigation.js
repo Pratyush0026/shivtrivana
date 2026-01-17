@@ -31,7 +31,7 @@ export function Navigation() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "border-b border-border bg-background/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "border-b border-border bg-[#FFFFFF] backdrop-blur-sm shadow-sm" : "bg-[#FFFFFF]"
         }`}
     >
       <nav className="container mx-auto px-6">
@@ -39,7 +39,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 transition-opacity hover:opacity-90">
             <Image
-              src="/images/f81d94c8-3f18-4e09-ba47-d412d2a9b2b3.jpg"
+              src="/images/shiv-logo.png"
               alt="Shivtrivana Logo"
               width={160}
               height={48}
