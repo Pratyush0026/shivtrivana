@@ -282,11 +282,11 @@ export default function Home() {
                 <div className="text-sm text-muted-foreground md:text-base">Successful Placements</div>
               </div>
               <div className="text-center">
-                <div className="mb-2 text-4xl font-bold text-primary md:text-5xl" aria-label="Over 100 satisfied clients">100+</div>
+                <div className="mb-2 text-4xl font-bold text-primary md:text-5xl" aria-label="Over 100 satisfied clients">100%</div>
                 <div className="text-sm text-muted-foreground md:text-base">Client Satisfaction</div>
               </div>
               <div className="text-center">
-                <div className="mb-2 text-4xl font-bold text-primary md:text-5xl" aria-label="10 industries served">10</div>
+                <div className="mb-2 text-4xl font-bold text-primary md:text-5xl" aria-label="10 industries served">10+</div>
                 <div className="text-sm text-muted-foreground md:text-base">Industries Served</div>
               </div>
             </div>
@@ -356,7 +356,7 @@ export default function Home() {
             <div className="mt-16 text-center">
               <div className="mx-auto max-w-2xl rounded-2xl border border-primary/20 bg-gradient-to-r from-primary/5 via-accent/5 to-secondary/5 p-8">
                 <p className="mb-6 text-lg font-medium text-foreground">
-                  Don't see your industry? We have expertise across 20+ sectors
+                  Don't see your industry? We have expertise across 10+ sectors
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <Button asChild size="lg">
