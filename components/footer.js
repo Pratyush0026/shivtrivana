@@ -4,14 +4,14 @@ import Image from "next/image"
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-secondary/30">
+    <footer className="border-t border-border bg-[#Ffffff]">
       <div className="container px-6 py-12 md:py-16">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="mb-4 inline-block">
               <Image
-                src="/images/f81d94c8-3f18-4e09-ba47-d412d2a9b2b3.jpg"
+                src="/images/shiv-logo.svg"
                 alt="Shivtrivana Logo"
                 width={160}
                 height={48}
@@ -76,13 +76,13 @@ export function Footer() {
                   About Us
                 </Link>
               </li>
-         
-                <li>
+
+              <li>
                 <Link href="/services" className="text-muted-foreground transition-colors hover:text-primary">
                   services
                 </Link>
               </li>
-                   <li>
+              <li>
                 <Link href="/contact" className="text-muted-foreground transition-colors hover:text-primary">
                   Contact
                 </Link>
