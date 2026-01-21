@@ -274,7 +274,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container px-6">
           <div className="mx-auto max-w-6xl overflow-hidden rounded-2xl border border-border shadow-lg">
             <div className="aspect-video w-full bg-secondary/30">
@@ -282,7 +282,7 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
